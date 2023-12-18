@@ -90,5 +90,5 @@ st.markdown(
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Display the images (page1.png and page2.png)
-st.image('page1.png', caption='Page 1', use_column_width=True)
-st.image('page2.png', caption='Page 2', use_column_width=True)
+st.image('page 1.png', caption='Page 1', use_column_width=True)
+st.image('page 2.png', caption='Page 2', use_column_width=True)
