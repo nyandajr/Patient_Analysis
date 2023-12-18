@@ -89,6 +89,6 @@ st.markdown(
 # Close the container div
 st.markdown('</div>', unsafe_allow_html=True)
 
-# Display the images (page1.png and page2.png)
-st.image('page 1.png', caption='Page 1', use_column_width=True)
-st.image('page 2.png', caption='Page 2', use_column_width=True)
+# Display the images with full file paths
+st.image('/path/to/page 1.png', caption='Page 1', use_column_width=True)
+st.image('/path/to/page 2.png', caption='Page 2', use_column_width=True)
