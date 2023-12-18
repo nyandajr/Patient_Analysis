@@ -1,5 +1,4 @@
 import streamlit as st
-import base64
 
 # Set the title
 st.title('Patient Wait List Report')
@@ -59,7 +58,7 @@ st.markdown(
     * Allocate resources and personnel according to demand fluctuations across specialties.
     * Focus on expanding capacity in high-demand specialties with consistently high patient numbers or longer waiting times.
     * Consider implementing flexible staffing models to adapt to seasonal or unexpected surges in demand.
-    
+
     **B. Streamlined Patient Flow:**
 
     * Implement data-driven appointment scheduling systems to optimize time slots and minimize idle time.
@@ -90,17 +89,6 @@ st.markdown(
 # Close the container div
 st.markdown('</div>', unsafe_allow_html=True)
 
-# Path to your PDF file
-pdf_file_path = 'Patient wait.pdf'
-
-# Reading and encoding the PDF file
-with open(pdf_file_path, "rb") as file:
-    base64_pdf = base64.b64encode(file.read()).decode('utf-8')
-
-# Center-align the PDF horizontally
-st.markdown(
-    f'<div style="display: flex; justify-content: center;">'
-    f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="1000" height="600" type="application/pdf"></iframe>'
-    f'</div>',
-    unsafe_allow_html=True
-)
+# Display the images (page1.png and page2.png)
+st.image('page1.png', caption='Page 1', use_column_width=True)
+st.image('page2.png', caption='Page 2', use_column_width=True)
