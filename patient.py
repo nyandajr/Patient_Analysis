@@ -59,7 +59,7 @@ st.markdown(
     * Allocate resources and personnel according to demand fluctuations across specialties.
     * Focus on expanding capacity in high-demand specialties with consistently high patient numbers or longer waiting times.
     * Consider implementing flexible staffing models to adapt to seasonal or unexpected surges in demand.
-
+    
     **B. Streamlined Patient Flow:**
 
     * Implement data-driven appointment scheduling systems to optimize time slots and minimize idle time.
