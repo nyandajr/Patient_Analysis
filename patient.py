@@ -91,4 +91,4 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 # Display the images with full file paths
 st.image('Page1.png', caption='Page 1', use_column_width=True)
-st.image(' Page2.png', caption='Page 2', use_column_width=True)
+
